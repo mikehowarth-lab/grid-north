@@ -19,6 +19,19 @@ export default function Home({ posts }) {
           <div className={styles.logos}>
               <img src="compass.svg" id="compass" alt="Grid North" width="100px"/>
           </div>
+          <nav class="header_nav">
+              <ol class="header_links">
+                  <li class="header_link__jujke">
+                    <a href="/">Home</a>
+                  </li>
+                  <li class="header_link__jujke">
+                    <a href="/about">About</a>
+                  </li>
+                  <li class="header_linkActive__w1gYv header_link__jujke">
+                    <a href="/blog">Blog</a>
+                  </li>
+              </ol>
+          </nav>
           <h1>Grid North</h1>
           <blockquote>Grid north is a navigational phrase used to refer to the northward on a grid lines in a map projection. Grid north contrasts the true north and the magnetic north in that it is aligned to grid lines and always points upwards on a map.</blockquote>
           <p>
