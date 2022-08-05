@@ -5,9 +5,7 @@ import styles from "../pages/index.module.css";
     <div className="Header">
          <header className={styles.header}>
           <div className={styles.logos}>
-              <img src="compass.svg" id="compass" alt="Grid North" width="100px"/>
-          </div>
-          <nav class="header_nav">
+            <nav class="header_nav">
               <ol class="header_links">
                   <li class="header_link">
                     <a href="/">Home</a>
@@ -20,10 +18,11 @@ import styles from "../pages/index.module.css";
                   </li>
               </ol>
           </nav>
-          <h1>Grid North</h1>
-          <p>
-            Setting out on a new bearing and building a new future...
-          </p>
+          <a href="/">
+              <img src="compass.svg" id="compass" alt="Grid North" width="60px" align="right"/>
+          </a>
+          </div>
+         
         </header>
     </div>
   );

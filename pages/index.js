@@ -13,10 +13,16 @@ export const databaseId = process.env.NOTION_DATABASE_ID;
 const HomePage = ({posts}) => {
 return (
 	<div>
+      <h1>Grid North</h1>
+      <h2>Setting out on a new bearing and building a new future.</h2>
+      <p>A journey from mid career profeesional to financial independence and beyond.</p>
+      <a href="/about">
+        <button>More about me</button>
+      </a>
+     
+
       
-
-
-        <h2 className={styles.heading}>All Posts</h2>
+        <h3 className={styles.heading}>All Posts</h3>
         <ol className={styles.posts}>
           {posts.map((post) => {
             const date = new Date(post.last_edited_time).toLocaleString(

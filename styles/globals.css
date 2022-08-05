@@ -31,6 +31,11 @@ h1 {
   font-weight: 800;
 }
 
+.Header { 
+  margin:0;
+  padding:0;
+}
+
 .header_links{
   display: flex;
   margin-right: 0;
@@ -48,4 +53,15 @@ h1 {
 .header_link a:hover{ 
   text-decoration: underline;
 }
+
+
+.footer_links{
+  display: flex;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
 
