@@ -1,9 +1,12 @@
+/*CAD2C5
+84A98C
+*/
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: PT Sans, Playfair;
 }
 
 body {
@@ -29,6 +32,15 @@ a {
 
 h1 {
   font-weight: 800;
+  color: #2F3E46;
+}
+
+h2 { 
+  color: #354F52;
+}
+
+h3 { 
+  color: #52796F
 }
 
 .Header { 
@@ -50,18 +62,44 @@ h1 {
   margin:20px;
 }
 
-.header_link a:hover{ 
+.header_link a:hover, footer_link a:hover{ 
   text-decoration: underline;
 }
 
 
 .footer_links{
-  display: flex;
-  margin-right: 0;
-  margin-bottom: 0;
+ /* display: grid;*/
+  margin: 0 0 50px;
   padding: 0;
   list-style: none;
+  /*
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;*/
 }
+
+
+button {
+  color: #52796F;
+  border-radius: 25px;
+  padding:10px;
+}
+
+blockquote { 
+  border:1px dotted #ccc;
+  padding:20px;
+  margin:0;
+  background-color: #CAD2C5;
+}
+
+.copyright { 
+  margin-top:50px;
+  text-align:center;
+}
+
+
+
+
+
 
 
 

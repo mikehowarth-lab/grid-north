@@ -14,8 +14,8 @@ const HomePage = ({posts}) => {
 return (
 	<div>
       <h1>Grid North</h1>
-      <h2>Setting out on a new bearing and building a new future.</h2>
-      <p>A journey from mid career profeesional to financial independence and beyond.</p>
+      <h2>Setting out on a new bearing (and building a new future).</h2>
+      <p>A journey from mid career professional to financially independent.</p>
       <a href="/about">
         <button>More about me</button>
       </a>

@@ -4,6 +4,10 @@ import styles from "../pages/index.module.css";
   const Header = () => (
     <div className="Header">
          <header className={styles.header}>
+         <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
+            rel="stylesheet"
+          />
           <div className={styles.logos}>
             <nav class="header_nav">
               <ol class="header_links">
