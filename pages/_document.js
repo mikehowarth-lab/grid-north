@@ -5,8 +5,17 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-         <link href='https://fonts.googleapis.com/css?family=PT+Sans:Bold 900' rel='stylesheet' type='text/css'></link>
+         <link href='https://fonts.googleapis.com/css?family=PT+Sans:Bold' rel='stylesheet' type='text/css'></link>
          <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'></link>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDHP05LQ18"></script>
+        <script>
+            {`
+            window.dataLayer = window.dataLayer || []
+            function gtag(){dataLayer.push(arguments)}
+             gtag('js', new Date());
+                gtag('config', 'G-ZDHP05LQ18');
+            `}
+        </script>
         </Head>
         <body>
           <Main />
