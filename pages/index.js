@@ -15,7 +15,7 @@ return (
 	<div>
       <h1>Grid North</h1>
       <h2>Setting out on a new bearing (and building a new future).</h2>
-      <p>A journey from mid career professional to financially independent.</p>
+      <p>A journey from mid career professional to indie hacking and financial independence.</p>
       <a href="/about">
         <button>More about me</button>
       </a>
@@ -25,7 +25,7 @@ return (
         <h3 className={styles.heading}>All Posts</h3>
         <ol className={styles.posts}>
           {posts.map((post) => {
-            const date = new Date(post.last_edited_time).toLocaleString(
+            const date = new Date(post.created_time).toLocaleString(
               "en-GB",
               {
                 month: "long",
@@ -38,7 +38,7 @@ return (
                 <h3 className={styles.postTitle}>
                   <Link href={`/${post.id}`}>
                     <a>
-                      <Text text={post.properties.Name.title} />
+                      <Text text={post.properties.Name.title} /> 
                     </a>
                   </Link>
                 </h3>

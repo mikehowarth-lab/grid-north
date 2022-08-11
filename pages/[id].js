@@ -5,6 +5,8 @@ import Link from "next/link";
 import { databaseId } from "./index.js";
 import styles from "./post.module.css";
 
+import Newsletter from "../components/Newsletter"
+
 export const Text = ({ text }) => {
   if (!text) {
     return null;
@@ -187,6 +189,7 @@ export default function Post({ page, blocks }) {
             <a className={styles.back}>← Go home</a>
           </Link>
         </section>
+        <Newsletter/>
       </article>
     </div>
   );
