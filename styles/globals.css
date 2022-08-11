@@ -6,7 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: PT Sans, Playfair;
+  font-family: PT Sans;
+  font-weight:300;
 }
 
 body {
@@ -28,6 +29,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4 { 
+  font-family: Merriweather;
 }
 
 h1 {
